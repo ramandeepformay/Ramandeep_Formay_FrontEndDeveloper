@@ -1,0 +1,104 @@
+@import"./normalize.css";
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+
+/* header starts */
+.logo {
+    width: 50%;
+}
+
+.nav-update ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+ion-icon {
+    font-size:2.4rem;
+    color: white;
+}
+ion-icon:hover{
+    color: rgba(255,255,255,.75);
+}
+
+/*header ends */
+
+
+/* main starts */
+.wrapper {
+
+    width: 95%;
+    margin: 20px auto;
+}
+
+/* section 1 starts */
+.small-nav li a, .challenge-button{
+    color:white;
+    background:#333a40;
+    border:1px solid #333a40;
+    margin-left:10px;
+    border-radius:5px;
+}
+.small-nav li a:hover, .challenge-button:hover{
+    background:#494a4b;
+    color:white;
+    text-decoration:none;
+}
+/* section 1 ends */
+
+
+/* section 2 starts */
+.card{
+
+    padding-bottom:2rem;
+    border:none;
+    border-bottom:2px solid #333a40;
+}
+.card-update{
+    margin:1.25rem 0;
+}
+.challenge-button{
+display:inline-block;
+  margin:10px 0px 20px;
+  padding:5px 10px;
+}
+
+
+
+/* pagination starts */
+
+.page-item li a{
+    color:#333a40;
+}
+.page-item li a:hover{
+    color:white;
+    text-decoration:none;
+    background:#333a40
+}
+
+/* pagination ends */
+/* section 2 ends */
+/* main ends */
+
+
+/* footer starts */
+footer{
+    background:#333a40;
+    padding:10px;
+    margin-top:5px;
+    
+}
+    footer p{
+       text-align:center;
+       color:white;
+    }
+/* footer ends */
